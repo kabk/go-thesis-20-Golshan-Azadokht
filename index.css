@@ -1,0 +1,117 @@
+*, *:before, *:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+.menu {
+  width: 100%;
+}
+
+span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*
+
+Every panel has a class and an id
+I used the class to define the styles that apply to all four panels:
+  - absolute position
+  - width and height
+
+Then I used the id's to specify what is different for every panel:
+  - background-color
+  - top, left, bottom or right position
+
+*/
+/*
+.sliding-panel {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+}
+*/
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: lightgrey;
+  padding: 50px;
+}
+
+.left-door {
+  background-color: red;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.right-door {
+  background-color: #fff;
+  position: absolute;
+  width: 10vw;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  transition: width 2s ease-in-out;
+  font-size: 3vw;
+  padding: 25px;
+  border-left: 3px solid black;
+  font-family: Arial;
+  hyphens: auto;
+}
+
+.expanded {
+  width: 90vw;
+}
+
+.panel {
+  /* background-color: blue; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  overflow: scroll;
+  overflow-wrap: break-word;
+}
+
+.panel1 {
+  display: block;
+  border: 1px solid blue;
+}
+
+.footnotes-left {
+  width: 100%;
+  height: 80%;
+  font-size: 2vw;
+  padding-top: 20px;
+  overflow: scroll;
+  border-top: 3px solid black;
+  font-family: Arial;
+  font-style: italic;
+}
+
+p .panel3 {
+  /* for poems or so */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
