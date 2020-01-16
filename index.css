@@ -79,7 +79,7 @@ span:hover {
   transition: width 0.3s ease-in-out;
   font-size: 4vw;
   padding: 20px;
-  border-left: 3px solid black;
+  border-left: 10px solid black;
   font-family: Arial;
   hyphens: auto;
 }
@@ -110,7 +110,7 @@ span:hover {
   font-size: 3.7vw;
   padding-top: 20px;
   overflow: scroll;
-  border-top: 3px solid black;
+  border-top: 10px solid black;
   font-family: Arial;
   font-style: normal;
 }
