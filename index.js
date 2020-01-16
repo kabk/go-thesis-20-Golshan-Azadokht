@@ -15,31 +15,3 @@ $(".chapter").click(function () {
 $('.right-door').click(function () {
   $(this).removeClass('expanded');
 })
-
-// $('.left-door').click(function () {
-//   if ($('.right-door').hasClass('expanded')) {
-//     $('.right-door').removeClass('expanded');
-//   }
-// })
-
-
-// $(".sliding-panel").click(function(){
-//   if ( $(this).hasClass("isOpen") ) {
-//     $(this).animate({
-//       width: '10%'
-//     });
-//   } else {
-//     $(this).animate({
-//       width: '90%'
-//     });
-//   }
-//   $(this).toggleClass("isOpen");
-// });
-//
-// $(".static-panel").click(function(){
-//   if ($(".sliding-panel").hasClass("isOpen")) {
-//     // $(".sliding-panel").animate({
-//     //   width: '10%'
-//     // });
-//   }
-// });
