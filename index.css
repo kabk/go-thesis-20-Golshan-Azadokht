@@ -81,6 +81,7 @@ span:hover {
   display: none;
   overflow: scroll;
   overflow-wrap: break-word;
+  padding-right: 25px;
 }
 
 .panel1 {
