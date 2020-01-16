@@ -61,7 +61,7 @@ span:hover {
   height: 100vh;
   right: 0;
   top: 0;
-  transition: width 1s ease-in-out;
+  transition: width 0.5s ease-in-out;
   font-size: 4vw;
   padding: 25px;
   border-left: 3px solid black;
