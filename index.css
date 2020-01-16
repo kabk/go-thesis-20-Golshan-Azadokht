@@ -61,8 +61,8 @@ span:hover {
   height: 100vh;
   right: 0;
   top: 0;
-  transition: width 0.5s ease-in-out;
-  font-size: 5vw;
+  transition: width 0.2s ease-in-out;
+  font-size: 4vw;
   padding: 25px;
   border-left: 3px solid black;
   font-family: Arial;
@@ -96,7 +96,7 @@ span:hover {
   overflow: scroll;
   border-top: 3px solid black;
   font-family: Arial;
-  font-style: italic;
+  font-style: normal;
 }
 
 p .panel10 {
