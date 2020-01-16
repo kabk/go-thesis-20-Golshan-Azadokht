@@ -91,18 +91,17 @@ span:hover {
 .footnotes-left {
   width: 100%;
   height: 80%;
-  font-size: 2vw;
+  font-size: 3.5vw;
   padding-top: 20px;
   overflow: scroll;
   border-top: 3px solid black;
   font-family: Arial;
   font-style: normal;
 }
-
+/*
 p .panel10 {
   background-color: white;
   overflow: overflow;
-  /* width: 100%; */
   height: 100%;
   top: 0;
   right: 0;
@@ -112,7 +111,7 @@ p .panel10 {
   font-family: Arial Narrow;
   font-style: italic;
   line-height: 1.5;
-}
+} */
 
 
 img {
