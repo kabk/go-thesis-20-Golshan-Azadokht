@@ -14,8 +14,8 @@ $('.right-door').click(function () {
   $(this).removeClass('expanded');
 })
 
-  dots.click( function () {
+  $('#going-back').click( function () {
     if ($('.right-door').hasClass('expanded')){
-    $('.right-door').removeClass('expanded');
+      $('.right-door').removeClass('expanded');
   }
 })

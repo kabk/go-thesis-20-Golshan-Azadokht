@@ -45,6 +45,14 @@ body, html {
   width: 100%;
 }
 
+#going-back {
+  position: absolute;
+  width: 5vw;
+  height: 100vh;
+
+  /* background-color: red; */
+}
+
 span:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -105,6 +113,7 @@ span:hover {
   display: block;
   text-transform: uppercase;
   text-align: center;
+  /* font-size: 3.5vw; */
 }
 
 .expanded > .panel1 {
