@@ -1,11 +1,13 @@
 @font-face {
   font-family: Arial;
   src: url(Arial.ttf);
+  font-weight: normal;
 }
 
 @font-face {
-  font-family: Arial Black;
+  font-family: Arial;
   src: url(Arial Black.ttf);
+  font-weight: bold;
 }
 
 @font-face {
@@ -101,8 +103,15 @@ span:hover {
 
 .panel1 {
   display: block;
-  /* border: 1px solid blue; */
+  text-transform: uppercase;
+  text-align: center;
 }
+
+.expanded > .panel1 {
+  text-align: left;
+}
+
+
 
 .footnotes-left {
   width: 100%;

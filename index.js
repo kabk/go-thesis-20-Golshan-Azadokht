@@ -1,6 +1,4 @@
-let panels = $('.panel')
-let chapters = $('.chapter')
-// console.log(chapters)
+let dots = $('.dot');
 
 $(".chapter").click(function () {
     let num = $(this)[0].classList.value;
@@ -14,4 +12,10 @@ $(".chapter").click(function () {
 
 $('.right-door').click(function () {
   $(this).removeClass('expanded');
+})
+
+  dots.click( function () {
+    if ($('.right-door').hasClass('expanded')){
+    $('.right-door').removeClass('expanded');
+  }
 })
