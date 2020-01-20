@@ -152,6 +152,10 @@ height: 100%;
     background-color: #145A32;
 }
 
+.footnotes-left::-webkit-scrollbar-track {
+   background-color: #eee; 
+}
+
 /*
 p .panel10 {
   background-color: white;
