@@ -19,7 +19,3 @@ $('.right-door').click(function () {
       $('.right-door').removeClass('expanded');
   }
 })
-
-$('.marquee').marquee({
-  duplicated: true
-});
