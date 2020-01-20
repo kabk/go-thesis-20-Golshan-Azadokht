@@ -39,9 +39,11 @@ body, html {
 }
 
 .dot {
-  height: 50px;
+  height: 65px;
   width: 50px;
-  background-color: black;
+  background-color: white;
+  border-style: solid;
+  border-color: #145A32;
   border-radius: 50%;
   display: inline-block;
 }
