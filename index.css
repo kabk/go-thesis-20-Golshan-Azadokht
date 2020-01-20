@@ -31,7 +31,6 @@ body, html {
 
 .container {
   position: relative;
-  background-color: grey;
   width: 100%;
   height: 100%;
 
@@ -99,6 +98,7 @@ span:hover {
   border-left: 10px solid #145A32;
   font-family: Arial;
   hyphens: auto;
+  overflow: hidden;
 }
 
 .expanded {
