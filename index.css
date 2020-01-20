@@ -37,8 +37,8 @@ body, html {
 }
 
 .dot {
-  height: 65px;
-  width: 50px;
+  height: 70px;
+  width: 45px;
   background-color: white;
   border-style: solid;
   border-color: #145A32;
@@ -122,9 +122,14 @@ span:hover {
   font-size: 3.6vw;
 }
 
+marquee {
+  text-align: center;
+  height: 170vw;
+}
+
 .expanded > .panel1 {
 text-align: left;
-height: 100%;
+overflow: hidden;
 }
 
 
@@ -151,26 +156,6 @@ height: 100%;
     border: 2px solid white;
     background-color: #145A32;
 } */
-
-.footnotes-left::-webkit-scrollbar {
-    -webkit-appearance: none;
-    -webkit-overflow-scrolling: auto;
-}
-.footnotes-left::-webkit-scrollbar:vertical {
-    width: 12px;
-}
-.footnotes-left::-webkit-scrollbar:horizontal {
-    height: 12px;
-}
-.footnotes-left::-webkit-scrollbar-thumb {
-    background-color: #145A32;
-    border-radius: 10px;
-    border: 2px solid #ffffff;
-}
-.footnotes-left::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background-color: #ffffff;
-}
 
 
 /*
