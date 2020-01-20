@@ -123,7 +123,7 @@ span:hover {
 .panel1 {
   display: block;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   position: absolute;
   font-size: 3.6vw;
 }
@@ -131,15 +131,16 @@ span:hover {
 marquee {
   text-align: center;
   height: 170vw;
+  color: white;
+   -webkit-text-stroke-width: 3.5px;
+    -webkit-text-stroke-color: #145A32;
 }
 
-.expanded > .panel1 {
+
+/* .expanded > .panel1 {
 text-align: left;
 overflow: hidden;
-}
-
-.panel2 {
-}
+} */
 
 
 
