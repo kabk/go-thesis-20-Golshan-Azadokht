@@ -94,7 +94,7 @@ span:hover {
   transition: width 0.3s ease-in-out;
   font-size: 4vw;
   padding: 20px;
-  border-left: 10px solid #145A32;
+  border-left: 7px solid #145A32;
   font-family: Arial;
   hyphens: auto;
   overflow: hidden;
@@ -134,7 +134,7 @@ height: 100%;
   font-size: 3.7vw;
   padding-top: 20px;
   overflow: scroll;
-  border-top: 10px solid #145A32;
+  border-top: 7px solid #145A32;
   font-family: Arial;
   font-style: normal;
   margin-bottom: auto;
@@ -154,6 +154,7 @@ height: 100%;
 
 .footnotes-left::-webkit-scrollbar {
     -webkit-appearance: none;
+    -webkit-overflow-scrolling: auto
 }
 .footnotes-left::-webkit-scrollbar:vertical {
     width: 12px;
